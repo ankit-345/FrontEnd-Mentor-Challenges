@@ -8,10 +8,10 @@ const MainComponent = () => {
   return (
     <>
     <picture className="bg-image" >
-    <source type="../image/png"
+    <source type="image.png"
       srcSet="../images/?width=100 100w, ../images/bg-intro-desktop.png?width=200 200w, ../images/bg-intro-desktop.png?width=400 400w, ../images/bg-intro-desktop.png?width=800 800w" />
-    <img src={backgroundImage} alt="background-image" style={{width: "100%", aspectRatio: "16/9"}}
-      fetchpriority="high" />
+    <img src={backgroundImage} alt="background-image" style={{width: "100%"}} 
+    sizes="(max-width:800) 100vw, 50vw"/>
   </picture>
   <main className="container">
     <LeftComponent />

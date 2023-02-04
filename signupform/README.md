@@ -1,3 +1,5 @@
+Link for the live site(https://flourishing-marigold-356786.netlify.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,7 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Frontend Mentor - Intro component with sign up form
 
-![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Intro component with sign up form coding challenge](./src/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 

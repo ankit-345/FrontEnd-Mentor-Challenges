@@ -1,6 +1,7 @@
+##Live Site URl: [Live](https://flourishing-beijinho-56f202.netlify.app/)
+
 # Frontend Mentor - News homepage
 
-[Link for the Live site]: (https://stalwart-kitten-322b0e.netlify.app/)
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

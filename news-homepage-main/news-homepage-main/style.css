@@ -107,6 +107,11 @@ header ul .open-icon{
     padding: 8px 15px;
 }
 
+.mobile-nav a{
+    color: black;
+    font-weight: 500;
+}
+
 .mobile-nav a:hover{
     color: var(--Soft_red);
 }

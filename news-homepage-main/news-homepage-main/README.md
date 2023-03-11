@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage
 
-[Link for the Live site]: (https://stalwart-kitten-322b0e.netlify.app/)
+[Link for the Live site](https://stalwart-kitten-322b0e.netlify.app/)
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋

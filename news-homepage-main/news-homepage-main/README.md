@@ -1,4 +1,4 @@
-Live Site URl(https://flourishing-beijinho-56f202.netlify.app/)
+Live Site URl(https://dreamy-dragon-f196ce.netlify.app/)
 
 # Frontend Mentor - News homepage
 

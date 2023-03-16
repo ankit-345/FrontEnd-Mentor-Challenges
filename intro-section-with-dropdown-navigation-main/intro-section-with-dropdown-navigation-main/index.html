@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="container navbar">
+      <h1 style="display:none;">Hero Section Page With dropdown menu</h1>
+      <div class="logo-links">
+        <img src="images/logo.svg" alt="Logo">
+        <nav>
+          <ul>
+            <li class="dropdown"><a href="#">Features <img src="images/icon-arrow-down.svg" alt="downArrow"
+                  class="downarrow"></a>
+                <ul class="dropdown-content show">
+                 <li><a href="#">
+                    <span class="image"><img src="images/icon-todo.svg" alt="todo"></span>
+                    <span style="font-size: 15px; ">Todo List</span>
+                  </a></li>
+                  <li><a href="#">
+                    <span class="image"><img src="images/icon-calendar.svg" alt="calender"></span>
+                    <span style="font-size: 15px;">Calender</span>
+                  </a></li>
+                  <li><a href="#">
+                    <span class="image"><img src="images/icon-reminders.svg" alt="reminder"></span>
+                    <span style="font-size: 15px;">Reminders</span>
+                  </a></li>
+                  <li><a href="#">
+                    <span class="image"><img src="images/icon-planning.svg" alt="Planning"></span>
+                    <span style="font-size: 15px;">Planning</span>
+                  </a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#">Company <img src="images/icon-arrow-down.svg" alt="downArrow" class="downarrow"></a>
+              <ul class="dropdown-content show" id="second-dropdown">
+                <li><a href="#">
+                  <span style="font-size: 15px;">History</span>
+                </a></li>
+                <li><a href="#">
+                  <span style="font-size: 15px;">Our Team</span>
+                </a></li>
+                <li><a href="#">
+                  <span style="font-size: 15px;">Blog</span>
+                </a></li>
+              </ul>
+            </li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="buttons"> 
+        <button type="button" class="btn login" >Login</button>
+        <button type="button" class="btn register" >Register</button>
+        <span id="image" class="open-icon">
+          <img src="images/icon-menu.svg" alt="icon-menu">
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <aside class="sidebar">
+    <ul>
+      <li class="dropdown"><a href="#">Features <img src="images/icon-arrow-down.svg" alt="downArrow" class="downarrow"></a>
+        <ul class="dropdown-content show">
+          <li><a href="#">
+            <span class="image"><img src="images/icon-todo.svg" alt="todo"></span>
+            <span style="font-size: 15px;">Todo List</span>
+          </a></li>
+          <li><a href="#">
+            <span class="image"><img src="images/icon-calendar.svg" alt="calender"></span>
+            <span style="font-size: 15px;">Calender</span>
+          </a></li>
+          <li> <a href="#">
+            <span class="image"><img src="images/icon-reminders.svg" alt="reminder"></span>
+            <span style="font-size: 15px;">Reminders</span>
+          </a></li>
+          <li> <a href="#">
+            <span class="image"><img src="images/icon-planning.svg" alt="planning"></span>
+            <span style="font-size: 15px;">Planning</span>
+          </a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a href="#">Company <img src="images/icon-arrow-down.svg" alt="downArrow" class="downarrow"></a>
+        <ul class="dropdown-content show">
+         <li><a href="#">
+            <span style="font-size: 15px;">History</span>
+          </a></li>
+          <li><a href="#">
+            <span style="font-size: 15px;">Our Team</span>
+          </a></li>
+          <li><a href="#">
+            <span style="font-size: 15px;">Blog</span>
+          </a></li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <button type="button" class="btn login" >Login</button>
+    <button type="button" class="btn register">Register</button>
+  </aside>
+
+  <main class="main">
+    <div class="container hero">
+       <section class="hero-text">
+          <h2 style="display:none;">Hero Section description</h2>
+          <h2><b>Make remote work</b></h2>
+          <p>Get your team in sync. no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          <button type="button" class="btn" id="hero-button">Learn more</button>
+          <div class="clients">
+            <span class="client-img">
+              <img src="images/client-databiz.svg" alt="client-databiz">
+            </span>
+            <span class="client-img">
+              <img src="images/client-audiophile.svg" alt="client-audiophile" style="width: 68px;">
+            </span>
+            <span class="client-img">
+              <img src="images/client-meet.svg" alt="client-meet">
+            </span>
+            <span class="client-img">
+              <img src="images/client-maker.svg" alt="client-maker">
+            </span>
+          </div>
+       </section>
+       <section class="hero-image">
+          <h2 style="display: none;">Hero Section Image</h2>
+          <picture>
+            <source media="(max-width: 700px)" srcset="images/image-hero-mobile.png" />
+            <img src="images/image-hero-desktop.png" alt="image-hero-desktop">
+          </picture>
+       </section>
+      </div>
+  </main>
+
+  <aside class="black-sheet"></aside>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/ankit-345" target="_blank">Ankit Maurya</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

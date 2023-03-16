@@ -33,6 +33,10 @@ p{
     margin: 10px 0;
 }
 
+h1{
+    font-weight: 900;
+}
+
 /* CSS HEADER */
 
 .header{
@@ -116,15 +120,22 @@ header ul .open-icon{
     color: var(--Soft_red);
 }
 
-.open-close{
+#black-sheet{
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
     min-height: 100vh;
     z-index: 70;
-    background-color: rgb(0 0 0 / 34%);
+    transition: 1s all;
+    visibility: hidden;
 }
+
+#black-sheet.open-close{
+    background-color: rgb(0 0 0 / 34%);
+    visibility: visible;
+}
+
 
 /* MAIN CONTENT */
 
@@ -257,7 +268,7 @@ header ul .open-icon{
 }
 
 .product .product-desc h3{
-    font-weight: bold;
+    font-weight: 900;
     cursor: pointer;
 }
 

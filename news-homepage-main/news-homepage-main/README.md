@@ -1,4 +1,4 @@
-## Live Site URl: [Live](https://flourishing-beijinho-56f202.netlify.app/)
+Live Site URl(https://flourishing-beijinho-56f202.netlify.app/)
 
 # Frontend Mentor - News homepage
 

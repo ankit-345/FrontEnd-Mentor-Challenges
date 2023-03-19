@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  height: 100vh;
+  background-color:  hsl(212, 45%, 89%);;
+}
+
+.mycard{
+    width: 276px;
+    height: 418px;
+    border-radius: 21px !important;
+    padding: 12px;
+    background-color: hsl(0, 0%, 100%);
+    animation: card .6s linear;
+}
+
+@keyframes card{
+    from{
+       opacity: 0;
+    }
+    
+    to{
+       opacity: 1;
+    }
+}
+
+#image{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    animation: card 1.6s linear;
+}
+
+.card-img-top{
+    transition: ease-in-out .7s;
+    height: 100%;
+}
+
+.mycard > #image > img:hover{
+   transform: rotate(90deg) scale(125%);
+}
+
+
+.mycard-body{
+    width: 100%;
+    height: calc(439px - 212px);
+    text-align: center;
+    padding: 23px 10px !important;
+}
+
+.mycard-body > h1{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+}
+
+.mycard-body > p{
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%)
+}

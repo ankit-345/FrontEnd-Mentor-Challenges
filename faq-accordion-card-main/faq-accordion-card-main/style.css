@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+:root{
+    --dark_desaturated_blue: hsl(238, 29%, 16%);
+    --Soft_red: hsl(14, 88%, 65%);
+    --dark_grayish_blue: hsl(237, 12%, 33%);
+    --Dark_grayish_blue: hsl(240, 6%, 50%);
+}
+  
+.main{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%)) !important;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mycard{
+    width: 880px;
+    height: 485px;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s;
+    position: relative;
+}
+  
+#art{
+    width: 600px;
+    position: absolute;
+    top: -102px;
+    right: 108px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    position: relative;
+    background-image:  url('images/bg-pattern-desktop.svg') ;
+    background-size:  169% 172%;
+    background-repeat:  no-repeat;
+    background-position: -383px -209px;
+}
+
+#woman{
+    position: absolute;
+    right: 68px;
+    top: 65px;
+    width: 85%;
+    overflow-x: hidden;
+    height: 82%;
+}
+
+#woman > img{
+    position: absolute;
+    right: 4px;
+}
+#box{
+    position: absolute;
+    right: 353px;
+    top: 195px;
+    width: 163px;
+    overflow: visible;
+}
+
+
+
+.right{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+    padding: 64px 91px 50px 0px;
+}
+
+.text-header{
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+
+.card{
+    border: none !important;
+    border-bottom: 1.5px solid rgba(0, 0, 0, .125) !important;
+    font-size: 14px;
+    border-radius: 0px !important;
+}
+
+.down-arrow{
+    color: var(--dark_grayish_blue);
+    border: none;
+    border-bottom: none !important;
+}
+
+.down-arrow:focus{
+    outline: none;
+}
+
+.button-text:hover{
+    color: var(--Soft_red);
+}
+
+.card-header{
+    background-color: transparent !important;
+    padding: 0.75rem 0px 1rem 0px !important;
+}
+.card-body{
+    padding: 0px 0px !important;
+    color: var(--Dark_grayish_blue);
+}
+ 
+.border-bottom{
+    border-bottom: 1px solid var(--dark_grayish_blue);
+}
+
+.bottom-none{
+    border-bottom: none;
+}
+
+
+.down-arrow > img{
+    width: 13px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}

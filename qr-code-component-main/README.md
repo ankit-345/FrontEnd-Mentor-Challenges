@@ -1,7 +1,7 @@
 Live Site Url(https://inspiring-piroshki-037f00.netlify.app/)
 
 # Challenge Design
-![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
+![Design preview for the QR Code Component](./design/desktop-preview.jpg)
 
 # FRONT-END MENTOR CHALLENGE-2 
  

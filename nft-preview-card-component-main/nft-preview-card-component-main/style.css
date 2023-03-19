@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+  
+.mycard{
+    width: 288px;
+    height: 478px;
+    padding: 18px;
+    border-radius: 15px !important;
+    background-color: hsl(216, 50%, 16%) !important;
+    box-shadow: 0px 11px 6px 12px rgb(0 0 0 / 11%), 0px 16px 5px 28px rgb(0 0 0 / 10%);
+}
+
+
+.image-box{
+    border-radius: 7px;
+    background: url(images/image-equilibrium.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.image-box2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background: url(images/icon-view.svg) no-repeat center;
+    opacity: 0;
+}
+
+
+.opacity:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 247, 0.3);
+    opacity: 1;
+}
+
+.card-title:hover{
+    cursor: pointer;
+    color: rgba(0, 255, 247) ;
+}
+
+.mycard-body{
+  padding: 19px 3px !important;
+}
+
+.mycard-body > h1{
+   font-size: 18px;
+   color: hsl(0, 0%, 100%);
+   font-family: 'Outfit', sans-serif;
+   font-weight: bold;
+}
+
+.p-font-size{
+    font-size: 14px;
+    color:hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.footer-img{
+    width: 27px;
+    border: 1px solid white; 
+    border-radius: 50px;
+}
+
+.line{
+    background-color: hsl(215, 32%, 27%);
+    margin-bottom: 1rem !important;
+}
+
+.etherium-text{
+    color: hsl(178, 100%, 50%);
+}
+
+.name{
+    color: white;
+}
+
+.name:hover{
+    cursor: pointer;
+    color: rgba(0, 255, 247);
+}

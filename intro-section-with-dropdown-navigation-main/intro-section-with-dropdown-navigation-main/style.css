@@ -283,9 +283,10 @@ nav ul li a:hover{
 }
 
 .hero-text p{
-    padding: 34px 190px 39px 0px;
+    padding: 34px 118px 39px 0px;
     color: var(--Medium_Gray);
     line-height: 1.4;
+    font-size: 17px;
 }
 
 .hero-text button{
@@ -309,7 +310,7 @@ nav ul li a:hover{
 }
 
 .hero .hero-image img{
-    width: 70%;
+    width: 75%;
 }
 
 .clients{

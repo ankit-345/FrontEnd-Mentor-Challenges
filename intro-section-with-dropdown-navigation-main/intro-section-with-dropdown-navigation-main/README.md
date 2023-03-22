@@ -1,4 +1,4 @@
-Live Site Url(https://sweet-bavarois-7326b6.netlify.app/)
+Live Site Url(https://loquacious-gnome-b7a615.netlify.app/)
 
 # Frontend Mentor - Intro section with dropdown navigation
 

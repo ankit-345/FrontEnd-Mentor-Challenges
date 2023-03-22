@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,6 +50,52 @@ img {
     width: 404px;
     padding: 30px;
     border-radius: 25px;
+    box-shadow: 12px 12px 7px rgb(37 45 55 / 35%);
+    transition: 0.8s all;
+}
+
+.card.open{
+    animation: card-animation 0.8s ease-in-out;
+    box-shadow: -12px 12px 7px rgb(37 45 55 / 35%);
+}
+
+.card.close{
+    animation: card-animation3 0.8s ease-in-out;
+}
+
+@keyframes card-animation{
+    0%{
+        transform: rotateY(0deg);
+    }
+
+    100%{
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes card-animation3 {
+    0%{
+        transform: rotateY(180deg);
+    }
+
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+
+@keyframes card-animation2{
+    0%{
+        opacity: 0;
+    }
+
+    80%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 .card-header {
@@ -62,10 +108,16 @@ img {
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     border: none;
+
+    animation: card-animation2 1s ease-in-out;
 }
 
 .card-header.hidden, .card-body.hidden, .card-footer.hidden {
     display: none;
+}
+
+.card-body{
+    animation: card-animation2 1s ease-in-out;
 }
 
 .card-body .text > h1 {
@@ -112,6 +164,10 @@ img {
     color: var(--White);
 }
 
+.card-footer{
+    animation: card-animation2 1s ease-in-out;
+}
+
 .card-footer .submit-btn, .thank-you-footer-btn .submit-btn {
     background-color: var(--Orange);
     width: 100%;
@@ -144,6 +200,8 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    animation: card-animation2 1s ease-in-out;
 }
 
 .thank-you-body .image {
@@ -170,6 +228,8 @@ img {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 15px;
+
+    animation: card-animation2 1s ease-in-out;
 }
 
 .thank-you-footer h3 {
@@ -183,6 +243,10 @@ img {
     font-size: 0.9rem;
     color: var(--Light_Grey);
     line-height: 1.5;
+}
+
+.thank-you-footer-btn{    
+    animation: card-animation2 1s ease-in-out;
 }
 
 .thank-you-body.hidden, .thank-you-footer.hidden, .thank-you-footer-btn.hidden {

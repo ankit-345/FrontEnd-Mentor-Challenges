@@ -1,4 +1,4 @@
-Live Site URl(https://splendid-alpaca-d3dddf.netlify.app/)
+Live Site URl(https://comfy-sunflower-fe3bcc.netlify.app/)
 
 # Frontend Mentor - Interactive rating component
 

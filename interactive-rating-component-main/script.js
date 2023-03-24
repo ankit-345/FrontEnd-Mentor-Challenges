@@ -11,6 +11,7 @@ const thankFooterbtn = document.querySelector('.thank-you-footer-btn');
 const card = document.querySelector('.card');
 
 submit_btn.disabled = true;
+submit_btn.classList.add('disabled');
  
 submit_btn.addEventListener('click', () => {
     cardHeader.classList.add('hidden');
@@ -39,12 +40,17 @@ thankFooterbtn.addEventListener('click', () => {
     card.classList.add('close');
 
     submit_btn.disabled = true;
+
+    if(submit_btn.disabled == true){
+        submit_btn.classList.add('disabled');
+    }
 })
 
 btns.forEach(btn=> {
     btn.addEventListener('click', () => {
         rate.innerHTML = btn.innerHTML;
         submit_btn.disabled = false;
+        submit_btn.classList.remove('disabled');
     })
 })
 

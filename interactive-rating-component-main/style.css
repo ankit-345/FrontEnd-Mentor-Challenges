@@ -49,14 +49,15 @@ img {
     background-color: var(--Dark_Blue);
     width: 404px;
     padding: 30px;
+    height: 390px;
     border-radius: 25px;
-    box-shadow: 12px 12px 7px rgb(37 45 55 / 35%);
+    box-shadow: 0px 0px 23px rgb(37 42 55 / 76%);
     transition: 0.8s all;
 }
 
 .card.open{
     animation: card-animation 0.8s ease-in-out;
-    box-shadow: -12px 12px 7px rgb(37 45 55 / 35%);
+    box-shadow: 0px 0px 23px rgb(37 42 55 / 76%);
 }
 
 .card.close{
@@ -129,9 +130,9 @@ img {
 .card-body .text > p {
     font-family: var(--font-family);
     color: var(--Light_Grey);
-   font-size: 15px;
-   line-height: 1.55;
-   margin: 0 0 25px;
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0 0 25px;
 }
 
 .card-body .numbers {
@@ -182,6 +183,10 @@ img {
     transition: transform 0.2s ease-in;
 }
 
+.submit-btn.disabled{
+   filter: contrast(0.5);
+}
+
 .card-footer .submit-btn.hidden {
     display: none;
 }
@@ -196,17 +201,16 @@ img {
 /* THANK YOU PAGE */
 
 .thank-you-body {
-    height: 40%;
+    height: 55%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
-
     animation: card-animation2 1s ease-in-out;
 }
 
 .thank-you-body .image {
     margin: 0 auto;
-    width: 50%;
+    width: 46%;
     padding: 0 0 10px;
     margin-bottom: 15px;
 }
@@ -227,15 +231,14 @@ img {
 .thank-you-footer {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 15px;
-
+    margin-bottom: 10px;
     animation: card-animation2 1s ease-in-out;
 }
 
 .thank-you-footer h3 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: var(--White);
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     font-weight: 450;
 }
 
